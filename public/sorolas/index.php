@@ -1,3 +1,12 @@
+<?php
+// Connect to MySQL Database
+
+// SELECT (TicketNumber, DateAdded, CustomerID, MachineType, Status) 
+// from TICKETS WHERE TicketStatus <> "Closed" ORDER BY TicketNumber
+
+// 
+?>
+
 <html>
 <head><title>Sorola Ticket System</title></head>
 
@@ -9,21 +18,13 @@
 
 <table>
 	<tr>
-		<th><td>Ticket #</td></th>
-		<th><td>Date Added</td></th>
-		<th><td>Customer</td></th>
-		<th><td>Machine</td></th>
-		<th><td>Status</td></th>
+		<th>Ticket #</th>
+		<th>Date Added</th>
+		<th>Customer</th>
+		<th>Machine</th>
+		<th>Status</th>
 	</tr>
 
-<?php
-// Connect to MySQL Database
-
-// SELECT (TicketNumber, DateAdded, CustomerID, MachineType, Status) 
-// from TICKETS WHERE TicketStatus <> "Closed" ORDER BY TicketNumber
-
-// 
-?>
 
 </table>
 

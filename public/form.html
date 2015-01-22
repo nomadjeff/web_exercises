@@ -1,0 +1,133 @@
+<html>
+<head>
+    <title>My Form</title>
+</head>
+
+<body>
+<center>
+<h2>User Login</h2>
+<img align="center" src="Codeup-logo.png" width="200">
+<form name="form1" method="POST" action="http://requestb.in/1dtgboz1">
+<table>
+    <tr>
+        <td><label for="username">Username</label></td>
+        <td><input id="username" name="username" type="text" placeholder="Enter Username"></td>
+    </tr>
+    <tr>
+        <td><label for="password">Password</label></td>
+        <td><input id="password" name="password" type="password" placeholder="Enter Password"></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <textarea rows="5" cols="37"></textarea>
+        </td>
+    </tr>
+</table>
+    <p>
+        <input type="submit" name="mysubmitbutton" value="Login">
+    </p>
+</form>
+<hr>
+<h2>Compose an Email</h2>
+<img align="center" src="Codeup-logo.png" width="200">
+
+<form name="form2" method="POST" action="http://requestb.in/1dtgboz1">
+
+<table>
+    <tr>
+        <td><label for="emailTo">To: </label></td>
+        <td><input id="emailTo" name="username" size="40" type="text" placeholder="Recipient E-mail"></td>
+    </tr>
+    <tr>
+        <td><label for="emailFrom">From: </label></td>
+        <td><input id="emailFrom" name="username" size="40"type="text" placeholder="Sender E-mail"></td>
+    </tr>
+    <tr>
+        <td><label for="Subject">Subject: </label></td>
+        <td><input id="Subject" name="username" size="40" type="text" placeholder="Enter Subject"></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <textarea name ="emailBody" rows="5" cols="55"></textarea>
+        </td>
+    </tr>
+        <tr>
+        <td colspan="2">
+        <label for="saveCopy">Save a copy?</label>
+        <input id="saveCopy" name="saveCopy" type="checkbox"></td>
+    </tr>
+</table>
+
+    <p>
+        <input type="submit" name="submitEmail" value="Send Email">
+    </p>
+</form>
+
+<hr>
+
+<h2>Multiple Choice Test</h2>
+<form name="Test" method="post" action = "http://requestb.in/1dtgboz1">
+<table>
+    <td>
+        <ol>
+            <li><strong>What is your name?</strong><br>
+                <label><input name="Name" value="Calvin" type="radio"> Calvin</label><br>
+                <label><input name="Name" value="David" type="radio"> David</label><br>
+                <label><input name="Name" value="Jeff" type="radio"> Jeff</label><br>
+                <label><input name="Name" value="Kevin" type="radio"> Kevin</label><br>
+            </li>
+            <br>
+            <li><strong>What is your quest?</strong><br>
+                <label><input name="Quest" type="radio"> To Learn PHP</label><br>
+                <label><input name="Quest" type="radio"> To Do Whatever Issac Says</label><br>
+                <label><input name="Quest" type="radio"> To Find the One Ring</label><br>
+                <label><input name="Quest" type="radio"> To Seek the Holy Grail</label><br>
+            </li>
+            <br>
+            <li><strong>What is your favorite color?</strong><br>
+                <label><input name="Color" type="radio"> Green</label><br>
+                <label><input name="Color" type="radio"> Blue</label><br>
+                <label><input name="Color" type="radio"> Red</label><br>
+                <label><input name="Color" type="radio"> Yellow</label><br>
+            </li>
+        </ol>
+    </td>
+</table>
+<p>
+    <input type="submit" name="submitAnswers" value="Submit Answers">
+</p>
+<hr>
+<h2>Select Testing</h2>
+<form name="selectForm" method="POST" action="http://requestb.in/1dtgboz1">
+<table>
+    <tr>
+        <td><label for="State">Enter Your State</label></td>
+        <td>
+            <select name="State" id="State">
+                <option value="California">California
+                <option value="New York">New York
+                <option value="Texas">Texas
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="Country">Enter Your Country</label></td>
+        <td>
+        <select name="Country" id="Country">
+            <option value="Canada">Canada
+            <option value="United States">United States
+            <option value="Mexico">Mexico
+        </select>
+        </td>
+    </tr>
+</table>
+    <p>
+        <input type="submit" name="mysubmitbutton" value="Submit">
+    </p>
+</form>
+
+</center>
+</body>
+
+
+</html>

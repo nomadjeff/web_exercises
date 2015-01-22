@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+// todo:
+// Create an array of 4 names using literal array notation, in a variable called 'names'.
+var names = ['John','Paul','George','Ringo'];
+// todo:
+// Create a log statement that will log the number of elements in the names array.
+console.log('This array has ' + names.length + ' items.');
+// todo:
+// Create log statements that will print each of the names array elements individually.
+console.log('The first name is: ' + names[0]);
+console.log('The second name is: ' + names[1]);
+console.log('The third name is: ' + names[2]);
+console.log('The fourth name is: ' + names[3]);
+
+
+console.log ('For Loop');
+for (var i = 0; i < names.length; i++) {
+    console.log('The name at index ' + i + ' is: ' + names[i]);
+}
+console.log ('For-Each Loop');
+names.forEach(function (value, key) {
+	console.log('The name at ' + key +' is ' + value)
+});
+
+console.log ('Define a function');
+function loopArray(value, key, array) {
+	console.log('The name at ' + key +' is ' + value);
+}
+names.forEach(loopArray);
+
+console.log ('For-In Loop');
+for (index in names) {
+	console.log('The name at ' + index +' is ' + names[index]);
+}
+</script>
+</body>
+</html>

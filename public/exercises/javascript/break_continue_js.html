@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Break Continue JS</title>
+</head>
+<body>
+    <script>
+
+do {
+var random = Math.floor((Math.random()*50)+1);
+} while (random % 2 == 0);
+
+
+console.log('Random stopping point is: ' + random);
+
+for (var i = 1; i < 50; i += 2) {
+
+
+    if (random != i) {
+
+    console.log('Loop counter is: ' + i);
+    }
+
+    else {
+
+        console.log('This is the number we skip: ' + i);
+    }
+}
+    </script>
+</body>
+</html>
